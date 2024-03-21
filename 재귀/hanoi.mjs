@@ -5,4 +5,13 @@ const hanoi = (count, from, to, temp) => {
     hanoi(count -1, temp, to, from); // 재귀실행 hanoi(2, "B","C","A")
 }
 
-hanoi(3, "A", "C", "B"); //몇개이동, 현재위치, 갈위치, 임시장소
+hanoi(3, "A", "C", "B"); 
+/* 
+원반1개를 A에서 C로 이동
+원반2개를 A에서 B로 이동
+원반1개를 C에서 B로 이동
+원반3개를 A에서 C로 이동
+원반1개를 B에서 A로 이동
+원반2개를 B에서 C로 이동
+원반1개를 A에서 C로 이동
+*/
