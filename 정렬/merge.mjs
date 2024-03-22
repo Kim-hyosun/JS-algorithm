@@ -1,5 +1,5 @@
 /* 
-merge sort
+merge sort ; 분할 정복 알고리즘
 성능 : O(nlogn)
 
 장점 : 성능이 좋음 
